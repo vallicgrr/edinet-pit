@@ -1,5 +1,7 @@
 # edinet-pit
 
+[![CI](https://github.com/vallicgrr/edinet-pit/actions/workflows/ci.yml/badge.svg)](https://github.com/vallicgrr/edinet-pit/actions/workflows/ci.yml)
+
 EDINETの有価証券報告書（XBRL）から **point-in-time（原初開示）** の年次財務を抽出するPythonライブラリ。日本株バックテストの look-ahead bias（再表示財務問題）対策のために作った。
 
 *English README: [README.md](README.md)*

@@ -1,5 +1,7 @@
 # edinet-pit
 
+[![CI](https://github.com/vallicgrr/edinet-pit/actions/workflows/ci.yml/badge.svg)](https://github.com/vallicgrr/edinet-pit/actions/workflows/ci.yml)
+
 **Point-in-time (as-originally-reported) annual financials for Japanese equities**, extracted from EDINET securities reports (有価証券報告書, XBRL). Built to eliminate restated-financials look-ahead bias in backtests.
 
 日本語のREADMEは [README.ja.md](README.ja.md) にあります。
