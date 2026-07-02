@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "edinet-pit"
+version = "0.1.0"
+description = "Point-in-time (as-originally-reported) annual financials from EDINET securities reports, for survivorship/look-ahead-safe backtesting of Japanese equities"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+keywords = ["edinet", "xbrl", "japan", "equities", "backtesting", "point-in-time", "有価証券報告書"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Programming Language :: Python :: 3",
+    "Topic :: Office/Business :: Financial :: Investment",
+]
+dependencies = []
+
+[project.optional-dependencies]
+frames = ["pandas>=1.5"]
+dev = ["pytest", "pandas>=1.5"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/edinet_pit"]
